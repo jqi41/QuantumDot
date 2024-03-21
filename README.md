@@ -1,7 +1,7 @@
-# QTN-VQC
-An Implementation of Quantum Tensor Network for Variational Quantum Circuits
+# Pre-X+VQC
+An Implementation of Classical-to-Quantum Transfer Learning Algorithm with an Illustration of Quantum Dots 
 
-To run the experiments of PCA-VQC and TTN-VQC, please turn to our other repository at https://github.com/uwjunqi/Pretrained-TTN-VQC.git
+Our codes include the experiments of PCA+VQC, Pre-ResNet18+VQC, and Pre-ResNet50+VQC for charge stability diagrams for Quantum Dots
 
 ## Installation
 
@@ -12,7 +12,9 @@ The main dependencies include *pytorch* and *torchquantum*
 pip3 install torchquantum
 ```
 
-## Simulating QTN-VQC
+## Simulating PCA+VQC experiments
+
+### Assessing the representation power of PCA+VQC
 ```
-python qtn_vqc.py
+python PCA_VQC.py --num_qubits=8 --test_kind='rep' 
 ```
