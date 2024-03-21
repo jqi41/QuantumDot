@@ -12,9 +12,26 @@ The main dependencies include *pytorch* and *torchquantum*
 pip3 install torchquantum
 ```
 
-## Simulating PCA+VQC experiments
+## 1. Simulating Pre-ResNet18+VQC experiments
 
-### Assessing the representation power of PCA+VQC
+### 1.1 Assessing the representation power of Pre-ResNet18+VQC
 ```
-python PCA_VQC.py --num_qubits=8 --test_kind='rep' 
+python Pre-ResNet+VQC.py --num_qubits=8 --test_kind='rep' --model_kind='ResNet18'
+```
+
+### 1.2 Assessing the generalization power of Pre-ResNet18+VQC
+```
+python Pre-ResNet+VQC.py --num_qubits=8 --test_kind='gen' --model_kind='ResNet18'
+```
+
+## 2. Simulating Pre-ResNet50+VQC experiments
+
+### 2.1 Assessing the representation power of Pre-ResNet18+VQC
+```
+python Pre-ResNet+VQC.py --num_qubits=8 --test_kind='rep' --model_kind='ResNet50'
+```
+
+### 2.2 Assessing the generalization power of Pre-ResNet18+VQC
+```
+python Pre-ResNet+VQC.py --num_qubits=8 --test_kind='gen' --model_kind='ResNet50'
 ```
