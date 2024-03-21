@@ -12,6 +12,11 @@ The main dependencies include *pytorch* and *torchquantum*
 pip3 install torchquantum
 ```
 
+### 0. Downloading the dataset
+```
+git clone https://gitlab.com/QMAI/mlqe_2023_edx.git
+```
+
 ### 1. Simulating Pre-ResNet18+VQC experiments
 
 #### 1.1 Assessing the representation power of Pre-ResNet18+VQC
