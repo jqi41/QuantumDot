@@ -31,7 +31,20 @@ python Pre-ResNet+VQC.py --num_qubits=8 --test_kind='gen' --model_kind='ResNet18
 python Pre-ResNet+VQC.py --num_qubits=8 --test_kind='rep' --model_kind='ResNet50'
 ```
 
-#### 2.2 Assessing the generalization power of Pre-ResNet18+VQC
+### 3. Simulating PCA+VQC experiments
+
+#### 3.1 Assessing the representation power of PCA+VQC
 ```
-python Pre-ResNet+VQC.py --num_qubits=8 --test_kind='gen' --model_kind='ResNet50'
+python PCA+VQC.py --num_qubits=8 --test_kind='rep' 
+```
+
+#### 3.2 Assessing the representation power of PCA+VQC
+```
+python PCA+VQC.py --num_qubits=8 --test_kind='gen' 
+```
+
+
+#### 3.2 Assessing the generalization power of PCA+VQC
+```
+python PCA+VQC.py --num_qubits=8 --test_kind='gen' 
 ```
