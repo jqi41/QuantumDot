@@ -53,3 +53,15 @@ python PCA+VQC.py --num_qubits=8 --test_kind='gen'
 ```
 python PCA+VQC.py --num_qubits=8 --test_kind='gen' 
 ```
+
+### 4. Comparing Pre-ResNet+VQC with Pre-ResNet+NN regarding representation and generalization powers
+
+#### 4.1 Comparing their representation power
+```
+python Pre-ResNet_nn.py --num_qubits=8 --test_kind='rep'
+```
+
+#### 4.2 Comparing their generalization power
+```
+python Pre-ResNet_nn.py --num_qubits=8 --test_kind='gen'
+```
