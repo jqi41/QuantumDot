@@ -65,3 +65,9 @@ python Pre-ResNet_nn.py --num_qubits=8 --test_kind='rep'
 ```
 python Pre-ResNet_nn.py --num_qubits=8 --test_kind='gen'
 ```
+
+## Paper Citation
+
+If you use the codes for your research work, please consider citing the following paper: 
+
+Jun Qi, Chao-Han Yang, Pin-Yu Chen, Min-Hsiu Hsieh, Hector Zenil, Jesper Tegner, "Classical-to-Quantum Transfer Learning Facilitates Machine Learning with Variational Quantum Circuit," arXiv preprint arXiv:2306.03741, in Submission
