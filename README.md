@@ -70,4 +70,6 @@ python Pre-ResNet_nn.py --num_qubits=8 --test_kind='gen'
 
 If you use the codes for your research work, please consider citing the following paper: 
 
-Jun Qi, Chao-Han Yang, Pin-Yu Chen, Min-Hsiu Hsieh, Hector Zenil, Jesper Tegner, "Classical-to-Quantum Transfer Learning Facilitates Machine Learning with Variational Quantum Circuit," arXiv preprint arXiv:2306.03741, in Submission
+[1] Jun Qi, Chao-Han Yang, Pin-Yu Chen, Min-Hsiu Hsieh, Hector Zenil, Jesper Tegner, "Classical-to-Quantum Transfer Learning Facilitates Machine Learning with Variational Quantum Circuit," arXiv preprint arXiv:2306.03741, in Submission
+
+[2] Jun Qi, Chao-Han Huck Yang, Pin-Yu Chen, Min-Hsiu Hsieh, "Theoretical Error Performance Analysis for Variational Quantum Circuit Based Functional Regression," Nature Publishing Group, npj Quantum Information, Vol. 9, no. 4, 2023
